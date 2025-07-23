@@ -1,5 +1,5 @@
 import streamlit as st
-from backend import llm_chat
+from chatbot_backend import llm_chat
 
 st.title("Chatbot")
 
