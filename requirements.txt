@@ -1,6 +1,4 @@
 requests
-openai 
-dotenv 
-json
+openai
+python-dotenv
 streamlit
-os
