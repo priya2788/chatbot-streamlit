@@ -9,7 +9,7 @@ import json
 WEATHER_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 NEWS_API_KEY = os.getenv("NEWSAPI_API_KEY")
 client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_API_KEY")
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     api_version= os.getenv("AZURE_OPENAI_VERSION"),
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
     )
